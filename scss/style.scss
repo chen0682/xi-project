@@ -251,7 +251,7 @@ body {
 .control {
     position: absolute;
     top: 1%;
-    left: 10%;
+    // left: 10%;
     /* height: 80px; */
     width: 70%;
     max-width: 700px;
@@ -295,6 +295,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     flex-grow: 1;
     position: relative;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
@@ -308,7 +309,7 @@ body {
     position: absolute;
     /* margin: 20px; */
     right: 10px;
-
+    transition: 0.2s;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -349,6 +350,10 @@ a:active {
         top: 10px;
         // margin-top: 10px;
     }
+
+    .control {
+        left: 10%;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -367,9 +372,13 @@ a:active {
     }
 
     .control {
-        width: 98%;
-        left: 1%;
-        justify-content: flex-start;
+        width: 95%;
+        // left: 10%;
+        // display: flex;
+        // justify-self: center;
+        // flex-wrap: nowrap;
+        // justify-content: flex-start;
+        // border: 1px solid red;
     }
 
     #form {

@@ -259,7 +259,6 @@ body {
 .control {
   position: absolute;
   top: 1%;
-  left: 10%;
   /* height: 80px; */
   width: 70%;
   max-width: 700px;
@@ -317,6 +316,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -333,6 +335,8 @@ body {
   position: absolute;
   /* margin: 20px; */
   right: 10px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -382,6 +386,9 @@ a:active {
   .float-window {
     top: 10px;
   }
+  .control {
+    left: 10%;
+  }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -405,11 +412,7 @@ a:active {
     color: #424242;
   }
   .control {
-    width: 98%;
-    left: 1%;
-    -webkit-box-pack: start;
-        -ms-flex-pack: start;
-            justify-content: flex-start;
+    width: 95%;
   }
   #form {
     -webkit-box-pack: start;
