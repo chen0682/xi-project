@@ -346,6 +346,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   color: #424242;
+  background-color: #fff;
 }
 
 .display-window {

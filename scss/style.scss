@@ -314,6 +314,8 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(66, 66, 66);
+    background-color: #fff;
+    // opacity: 0;
 }
 
 .display-window {
@@ -324,6 +326,7 @@ body {
     justify-content: center;
     align-items: center;
     color: rgb(66, 66, 66);
+    // z-index: 0;
 }
 
 a {
